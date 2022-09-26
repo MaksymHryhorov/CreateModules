@@ -1,0 +1,7 @@
+# Project exclude paths
+/jmo-dto/target/
+/jmp-bank-api/target/
+/jmp-cloud-bank-imlp/target/
+/jmp-cloud-service-impl/target/
+/jmp-service-api/target/
+/target/
