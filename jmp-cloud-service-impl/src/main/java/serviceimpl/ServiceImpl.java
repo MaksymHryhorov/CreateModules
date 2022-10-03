@@ -5,10 +5,11 @@ import model.Subscription;
 import model.User;
 import service.Service;
 
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 
 public class ServiceImpl implements Service {
+    private List<User> user = new ArrayList<>();
+
     @Override
     public void subscribe(BankCard bankCard) {
 
@@ -21,6 +22,10 @@ public class ServiceImpl implements Service {
 
     @Override
     public List<User> getAllUsers() {
-        return null;
+        return user;
+    }
+
+    public void setUser(List<User> user) {
+        this.user = user;
     }
 }

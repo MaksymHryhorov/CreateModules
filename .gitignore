@@ -5,3 +5,6 @@
 /jmp-cloud-service-impl/target/
 /jmp-service-api/target/
 /target/
+.idea/
+*.iml
+*.iws
